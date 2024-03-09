@@ -1,5 +1,6 @@
 package rahulshettyacademy.pageobjects;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -53,5 +54,6 @@ public class ProductCatalogue extends AbstractComponent {
 		waitForElementToAppear(toastMessage);
 		waitForElementToDisappear(spinner);
 	}
+	
 	
 }

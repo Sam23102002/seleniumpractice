@@ -1,194 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="2" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-08T04:35:09Z" name="Default suite" finished-at="2023-12-08T04:36:00Z" duration-ms="51565">
+  <suite started-at="2024-03-09T09:33:01Z" name="Default suite" finished-at="2024-03-09T09:33:31Z" duration-ms="30231">
     <groups>
-      <group name="Purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" name="submitOrder" class="rahulshettyacademy.tests.SubmitOrderTest"/>
-      </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-12-08T04:35:09Z" name="Default test" finished-at="2023-12-08T04:36:00Z" duration-ms="51565">
-      <class name="rahulshettyacademy.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" started-at="2023-12-08T04:35:10Z" name="launchApplication" finished-at="2023-12-08T04:35:35Z" duration-ms="25408" status="PASS">
+    <test started-at="2024-03-09T09:33:01Z" name="Default test" finished-at="2024-03-09T09:33:31Z" duration-ms="30231">
+      <class name="rahulshettyacademy.tests.DeleteProductsFromCart">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.DeleteProductsFromCart@38b27cdc]" started-at="2024-03-09T09:33:01Z" name="launchApplication" finished-at="2024-03-09T09:33:16Z" duration-ms="14823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" started-at="2023-12-08T04:35:35Z" name="submitOrder" data-provider="getData" finished-at="2023-12-08T04:35:44Z" duration-ms="9125" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".hero-primary"}
-  (Session info: MicrosoftEdge=119.0.2151.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [19177ce4ceca0acbb3de6c1c150f382a, findElement {using=css selector, value=.hero-primary}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.97, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60434}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\Users\rames\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60434/devtoo..., se:cdpVersion: 119.0.2151.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 19177ce4ceca0acbb3de6c1c150f382a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".hero-primary"}
-  (Session info: MicrosoftEdge=119.0.2151.97)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.14.1', revision: '03f8ede370'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [19177ce4ceca0acbb3de6c1c150f382a, findElement {using=css selector, value=.hero-primary}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.97, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60434}, msedge: {msedgedriverVersion: 119.0.2151.97 (42f50dec8b7a..., userDataDir: C:\Users\rames\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60434/devtoo..., se:cdpVersion: 119.0.2151.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 19177ce4ceca0acbb3de6c1c150f382a
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy15.getText(Unknown Source)
-at rahulshettyacademy.pageobjects.ConfirmationPage.getConfirmationMessage(ConfirmationPage.java:29)
-at rahulshettyacademy.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:53)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="deleteProducts()[pri:0, instance:rahulshettyacademy.tests.DeleteProductsFromCart@38b27cdc]" started-at="2024-03-09T09:33:16Z" name="deleteProducts" finished-at="2024-03-09T09:33:31Z" duration-ms="14914" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" started-at="2023-12-08T04:35:44Z" name="tearDown" finished-at="2023-12-08T04:35:44Z" duration-ms="4" status="PASS">
+        </test-method> <!-- deleteProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.DeleteProductsFromCart@38b27cdc]" started-at="2024-03-09T09:33:31Z" name="tearDown" finished-at="2024-03-09T09:33:31Z" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" started-at="2023-12-08T04:35:44Z" name="launchApplication" finished-at="2023-12-08T04:35:53Z" duration-ms="9087" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" started-at="2023-12-08T04:35:53Z" name="submitOrder" data-provider="getData" finished-at="2023-12-08T04:36:00Z" duration-ms="6779" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at rahulshettyacademy.tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:49)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" started-at="2023-12-08T04:36:00Z" name="tearDown" finished-at="2023-12-08T04:36:00Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280]" started-at="2023-12-08T04:36:00Z" name="OrderHistoryTest" finished-at="2023-12-08T04:36:00Z" depends-on-methods="rahulshettyacademy.tests.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method SubmitOrderTest.OrderHistoryTest()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method SubmitOrderTest.OrderHistoryTest()[pri:0, instance:rahulshettyacademy.tests.SubmitOrderTest@68df9280] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistoryTest -->
-      </class> <!-- rahulshettyacademy.tests.SubmitOrderTest -->
+      </class> <!-- rahulshettyacademy.tests.DeleteProductsFromCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
