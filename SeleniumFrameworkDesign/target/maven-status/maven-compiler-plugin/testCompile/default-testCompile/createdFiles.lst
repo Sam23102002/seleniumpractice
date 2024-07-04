@@ -1,7 +1,8 @@
-BharatWaghProjects\SeleniumFrameworkDesign\SubmitOrderTest.class
+rahulshettyacademy\tests\TestDeleteMultiple.class
+rahulshettyacademy\tests\DeleteProductsFromCart.class
 cucumber\TestNGTestRunner.class
-BharatWaghProjects\SeleniumFrameworkDesign\StandAloneTest.class
 rahulshettyacademy\TestComponents\BaseTest.class
+rahulshettyacademy\tests\RSALogin.class
 rahulshettyacademy\tests\StandAloneTest.class
 rahulshettyacademy\data\DataReader$1.class
 rahulshettyacademy\stepDefinitions\StepDefinitionImpl.class

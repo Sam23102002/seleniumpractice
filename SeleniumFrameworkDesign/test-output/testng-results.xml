@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-09T09:33:01Z" name="Default suite" finished-at="2024-03-09T09:33:31Z" duration-ms="30231">
+  <suite started-at="2024-07-04T15:42:06 IST" name="Default suite" finished-at="2024-07-04T15:42:20 IST" duration-ms="14190">
     <groups>
     </groups>
-    <test started-at="2024-03-09T09:33:01Z" name="Default test" finished-at="2024-03-09T09:33:31Z" duration-ms="30231">
-      <class name="rahulshettyacademy.tests.DeleteProductsFromCart">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.DeleteProductsFromCart@38b27cdc]" started-at="2024-03-09T09:33:01Z" name="launchApplication" finished-at="2024-03-09T09:33:16Z" duration-ms="14823" status="PASS">
+    <test started-at="2024-07-04T15:42:06 IST" name="Default test" finished-at="2024-07-04T15:42:20 IST" duration-ms="14190">
+      <class name="rahulshettyacademy.tests.SearchProductTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.SearchProductTest@4a003cbe]" started-at="2024-07-04T15:42:06 IST" name="launchApplication" finished-at="2024-07-04T15:42:10 IST" duration-ms="4129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="deleteProducts()[pri:0, instance:rahulshettyacademy.tests.DeleteProductsFromCart@38b27cdc]" started-at="2024-03-09T09:33:16Z" name="deleteProducts" finished-at="2024-03-09T09:33:31Z" duration-ms="14914" status="PASS">
+        <test-method signature="searchProduct()[pri:0, instance:rahulshettyacademy.tests.SearchProductTest@4a003cbe]" started-at="2024-07-04T15:42:10 IST" name="searchProduct" finished-at="2024-07-04T15:42:18 IST" duration-ms="8093" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.DeleteProductsFromCart@38b27cdc]" started-at="2024-03-09T09:33:31Z" name="tearDown" finished-at="2024-03-09T09:33:31Z" duration-ms="457" status="PASS">
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.SearchProductTest@4a003cbe]" started-at="2024-07-04T15:42:18 IST" name="tearDown" finished-at="2024-07-04T15:42:20 IST" duration-ms="1871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- rahulshettyacademy.tests.DeleteProductsFromCart -->
+      </class> <!-- rahulshettyacademy.tests.SearchProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

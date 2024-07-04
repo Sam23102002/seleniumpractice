@@ -43,7 +43,7 @@ public class BaseTest {
 				+ "//src//main//java//rahulshettyacademy//resources//GlobalData.properties");
 		prop.load(fis);
 		
-		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
+		String browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
 		//prop.getProperty("browser");
 
 		if (browserName.contains("chrome")) {
@@ -126,7 +126,7 @@ public class BaseTest {
 	public void tearDown()
 	{
 //		if (driver != null) {
-//	        driver.close();
+	        driver.quit();
 //	    }
 	}
 }
