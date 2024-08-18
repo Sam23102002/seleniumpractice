@@ -29,21 +29,21 @@ public class StepDefinitionImpl extends BaseTest{
 	}
 
 	
-	@Given("^Logged in with username (.+) and password (.+)$")
+	@Given("Logged in with username {string} and password {string}")
 	public void logged_in_username_and_password(String username, String password)
 	{
 		productCatalogue = landingPage.loginApplication(username,password);
 	}
 	
 	
-	@When("^I add product (.+) to Cart$")
+	@When("I add product {string} to Cart")
 	public void i_add_product_to_cart(String productName) throws InterruptedException
 	{
 		List<WebElement> products = productCatalogue.getProductList();
 		productCatalogue.addProductToCart(productName);
 	}
 	
-	@When("^Checkout (.+) and submit the order$")
+	@When("Checkout {string} and submit the order")
 	public void checkout_submit_order(String productName)
 	{
 		CartPage cartPage = productCatalogue.goToCartPage();
@@ -64,7 +64,7 @@ public class StepDefinitionImpl extends BaseTest{
 		driver.close();
     }
     
-    @Then("^\"([^\"]*)\" message is displayed$")
+    @Then("{string} message is displayed")
     public void something_message_is_displayed(String strArg1) throws Throwable {
    
     	Assert.assertEquals(strArg1, landingPage.getErrorMessage());
